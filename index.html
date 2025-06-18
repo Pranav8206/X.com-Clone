@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+</head>
+
+<body class="bg-gray-950  text-white">
+
+
+    <!-- first  -->
+    <div class="flex  mx-auto lg:ml-2">
+        <div class="first w-fit flex flex-col h-[100vh] sticky  top-0 ">
+            <div class="logo invert pl-3 pt-1 md:pt-2  md:pl-3  cursor-pointer  ">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                    </path>
+                </svg>
+            </div>
+
+            <div class="sidebar gap-y-3 ">
+                <ul class="text-lg font-medium md:mx-auto justify-center ml-1.5">
+                    <li title="Home"
+                        class=" flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer md:pr-3">
+                        <span class="text-3xl material-symbols-outlined "> home
+                        </span><div class="hidden md:block">Home</div></li>
+                    <li title="Explore"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined "> search </span><div class="hidden md:block">Explore</div>
+                    </li>
+                    <li title="Notifications"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined"> notifications </span><div class="hidden md:block">Notifications</div>
+                    </li>
+                    <li title="Messages"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined"> mail </span><div class="hidden md:block">Messages</div>
+                    </li>
+                    <a href="https://x.ai/grok" target="_blank">
+                    <li class="hidden  md:flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <svg viewBox="0 0 33 32" aria-hidden="true"
+                            class="invert w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                            <path
+                                d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                            </path>
+                        </svg>
+                        <div class="hidden md:block">Grok</div>
+                    </li></a>
+                    <li title="Communities"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined">group</span><div class="hidden md:block">Communities</div>
+                    </li>
+                    <li
+                        class="hidden  md:flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3 ">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="invert w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99
+                                    21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084
+                                    4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg><div class="hidden md:block">Premium</div>
+                    </li>
+                    <li title="Verified orgs"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined">flash_on</span><div class="hidden md:block">Verified orgs</div>
+                    </li>
+                    <li title="Profile"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined"> person </span><div class="hidden md:block">Profile</div>
+                    </li> 
+                    <li title="More"
+                        class="flex flex-row items-center gap-4 w-fit p-1.5 my-1 px-2 hover:bg-gray-800 rounded-full  md:hover:rounded-3xl cursor-pointer pr-3">
+                        <span class="material-symbols-outlined"> pending </span><div class="hidden md:block">More</div>
+                    </li>
+                </ul>
+                <button
+                    class="hidden md:block cursor-pointer my-1 p-2.5 w-2/3 font-bold bg-white text-black  text-[22px] rounded-full ">Post</button>
+            </div>
+
+            <div class="absolute bottom-0 md:static md:flex items-center   mt-3.5 md:mt-2  md:hover:bg-gray-800 md:px-1 pl-1  md:py-1 rounded-full "
+                title="Pranav Mavle">
+                <img src="svgs & images/imageDP.png" class="ml-1  cursor-pointer w-8.5 rounded-full max-w-fit" alt="">
+
+                <div class=" inline-flex items-center justify-between">
+                    <div class="px-3 hidden md:block ">
+                        <div class="cursor-pointer text-[15px] font-bold min-w-28 ">Pranav Mavle
+                            <span><img class="cursor-pointer verification-badge" src="" alt=""></span>
+                        </div>
+                        <div class="cursor-pointer text-xs text-gray-600 font-medium">@pm</div>
+                    </div>
+                    <div class="cursor-pointer hidden md:block" title="More">
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- first  -->
+
+        <!-- second          -->
+        <div class="second border-[1px] w-full border-x-gray-700 border-y-0 ">
+
+            <div class="navbar border-[2px] sticky z-1 md:opacity-90 top-0 bg-black flex h-12 items-center justify-around border-black border-b-gray-700 ">
+                <div class="left  relative  text-xm font-bold text-gray-600  ">For you 
+                    <div class="absolute bg-[#1d9bf0] h-1 w-15 top-8 rounded-full "></div>
+                </div>
+                <div class="right relative text-xm font-bold text-gray-600 ">Following
+                    <div class="absolute bg-[#1d9bf0] h-1 w-19  top-8  rounded-full"></div>
+                </div>
+                
+                
+            </div>
+            
+            
+            <div class="whatshappnening flex  border-b-gray-600  ">
+                <div class="p-3">
+                    <img class="left w-8.5 rounded-full " src="svgs & images/imageDP.png" alt="">
+                </div>
+                <div class="right w-full  text-gray-400 text-xl pt-3">
+                    <input class="top outline-none" type="text" placeholder="What's happening!">
+
+                    <div class="middle flex items-center text-[#1d9bf0]  text-[16px] py-2   cursor-pointer">
+                        <span class="material-symbols-outlined">globe_asia</span>
+                        <div class="font-semibold pl-1.5">Everyone can reply</div>
+
+                    </div>
+
+                    <div class="bottom flex  items-center justify-between border-t mr-3 border-gray-700 ">
+                        <div class="bottomleft text-[#1d9bf0]  cursor-pointer p-2">
+                            <span class="material-symbols-outlined">imagesmode</span>
+                            <span class="material-symbols-outlined">gif_box</span>
+                            <a href="https://x.ai/grok" target="_blank"><span class=" material-symbols-outlined "><svg viewBox="0 0 33 32" aria-hidden="true"
+                                    class=" w-5 hidden lg:block" fill="#51a2ff">
+                                    <path
+                                        d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                    </path>
+                                </svg>
+                            </span></a>
+                            <span class="material-symbols-outlined">checklist</span>
+                            <span class="material-symbols-outlined">mood</span>
+                            <span class="material-symbols-outlined">edit_calendar</span>
+                            <span class="material-symbols-outlined">location_on</span>
+
+                        </div>
+                        <div class="flex justify-start  m-2">
+                            <button class="    px-4.5 py-1.5 font-medium bg-gray-300 rounded-full cursor-pointer hover:bg-white">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-gray-600">
+
+
+            <article class="flex m-3 ">
+                <img class="w-10 h-10 rounded-full cursor-pointer" src="svgs & images/post1DP.png" alt="">
+
+                <div class="post-info px-2.5">
+                    <div class="post-Navbar flex justify-between">
+                        <div class="flex flex-row items-center ">
+                            <span class="font-bold hover:underline cursor-pointer">ICC</span>
+                            <span class="pr-2"><img class="w-5 " src="svgs & images/blue tick.svg" alt=""></span>
+                            <span class="text-gray-400 cursor-pointer">@ICC . 2h</span>
+                        </div>
+                        <div class="flex  right-0 text-gray-400 cursor-pointer">
+                            <a href="https://x.ai/grok" target="_blank"><svg viewBox="0 0 33 32" aria-hidden="true" fill="#99a1af"
+                                class="invert w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                </path>
+                            </svg></a>
+                            <span class="material-symbols-outlined"> more_horiz </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer text-[16px]">
+                        Star India batter reclaims her throne at the top in the latest ICC Women's Player Rankings 🔥
+
+                    </div>
+                    <div class="cursor-pointer text-[15px] pt-1">Read more ⬇</div>
+                    <div class="relative ">
+                        <img class="cursor-pointer  border border-gray-700 rounded-sm " src="svgs & images/post1.png"
+                            alt="">
+                        <span
+                            class="cursor-pointer hover:underline absolute bottom-2 left-2 bg-black rounded-md px-1 opacity-80 max-h-5.5 max-w-[85%] truncate">
+                            <a class="text-sm" title="india-batter-re-claims-top-spot-on-updated-rankings"
+                                href="https://www.icc-cricket.com/news/india-batter-re-claims-top-spot-on-updated-rankings"
+                                target="_blank"
+                                rel="noopener noreferrer">india-batter-re-claims-top-spot-on-updated-rankings</a>
+                        </span>
+                    </div>
+                    <div class="p-2 ">
+                        <ul class="flex flex-row justify-between items-center text-gray-400 ">
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">quick_phrases</span>9</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">repeat</span>38</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">favorite</span>288</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">bar_chart</span>38K</li>
+                            <div class="cursor-pointer">
+                                <span class="material-symbols-outlined">bookmark</span></li>
+                                <span class="material-symbols-outlined">upload</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <hr class="text-gray-600">
+
+
+
+            <article class="flex m-3 ">
+
+                <img class="w-10 h-10 rounded-full cursor-pointer" src="svgs & images/post2DP.png" alt="">
+
+                <div class="post-info px-2.5">
+                    <div class="post-Navbar flex justify-between">
+                        <div class="flex flex-row items-center ">
+                            <span class="font-bold hover:underline cursor-pointer">State Bank of India</span>
+                            <span class="pr-2"><img class="w-5 " src="svgs & images/blue tick.svg" alt=""></span>
+                            <span class="text-gray-400 cursor-pointer">@TheOfficialSBI . 2h</span>
+                        </div> 
+                        <div class="flex  right-0 text-gray-400 cursor-pointer">
+                            <a href="https://x.ai/grok" target="_blank"><svg viewBox="0 0 33 32" aria-hidden="true" fill="#99a1af"
+                                class="invert w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                </path>
+                            </svg></a>
+                            <span class="material-symbols-outlined"> more_horiz </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer text-[16px] ">Beware of Fake Websites!Scamsters are creating fake
+                        websites to steal your information.
+                        Always check the URL before sharing personal or banking details.To report a cybercrime incident,
+                        call cybercrime helpline number 1930 or visit:
+                        https://cybercrime.gov.in/?twclid=2-6bowdzd32ae9gey2hgu6jc73q
+                    </div>
+                    <div class="cursor-pointer text-[14px] pt-2">#StaySafeWithSBI
+                        <div class="text-blue-400 hover:underline">Show more</div>
+                    </div>
+                    <div class="relative ">
+                        <img class="cursor-pointer max-w-3/4 border border-gray-700 rounded-sm " src="svgs & images/post2.png"
+                            alt="">
+                        <span
+                            class="cursor-pointer hover:underline  absolute bottom-2 left-2 bg-black rounded-md px-1 opacity-80 max-h-5.5 max-w-[85%] truncate">
+                            <a class="text-sm" title="State Bank of India"
+                                href="https://x.com/hashtag/SBI?src=hashtag_click" target="_blank"
+                                rel="noopener noreferrer">State Bank of India</a>
+                        </span>
+                    </div>
+                    <div class="p-2 ">
+                        <ul class="flex flex-row justify-between items-center text-gray-400 ">
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">quick_phrases</span>9</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">repeat</span>56</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">favorite</span>810</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">bar_chart</span>1.6M</li>
+                            <div class="cursor-pointer">
+                                <span class="material-symbols-outlined">bookmark</span></li>
+                                <span class="material-symbols-outlined">upload</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <hr class="text-gray-600">
+
+
+            <article class="flex m-3 ">
+                <img class="w-10 h-10 rounded-full cursor-pointer" src="svgs & images/post1DP.png"  alt="">
+
+                <div class="post-info px-2.5">
+                    <div class="post-Navbar flex justify-between">
+                        <div class="flex flex-row items-center ">
+                            <span class="font-bold hover:underline cursor-pointer ">ICC</span>
+                            <span class="pr-2"><img class="w-5 " src="svgs & images/blue tick.svg" alt=""></span>
+                            <span class="text-gray-400 cursor-pointer">@ICC . 3h</span>
+                        </div>
+                        <div class="flex  right-0 text-gray-400 cursor-pointer">
+                            <a href="https://x.ai/grok" target="_blank"><svg viewBox="0 0 33 32" aria-hidden="true" fill="#99a1af"
+                                class="invert w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                </path>
+                            </svg></a>
+                            <span class="material-symbols-outlined"> more_horiz </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer text-[16px]">
+                        Years of heartbreak for South Africa, healed by Temba Bavuma's glorious triumph ♥️
+                    </div>
+                    <div class="cursor-pointer text-[15px] pt-1 "
+                        title="south-africa-return-to-lord-s-for-more-wtc-final-celebrations">More on their #WTC25
+                        celebrations 👉
+                        <div class="text-blue-400 hover:underline"><a
+                                href="https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-return-to-lord-s-for-more-wtc-final-celebrations"
+                                target="_blank">
+                                https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-return-to-lord-s-for-more-wtc-final-celebrations</a>
+                        </div>
+                    </div>
+                    <div class="relative ">
+                        <img class="cursor-pointer max-w-3/4 border border-gray-700 rounded-sm " src="svgs & images/post3.png"
+                            alt="">
+                        <span
+                            class="cursor-pointer hover:underline absolute bottom-2 left-2 bg-black rounded-md px-1 opacity-80 max-h-5.5 max-w-[85%] truncate">
+                            <a class="text-sm" title="south-africa-return-to-lord-s-for-more-wtc-final-celebrations"
+                                href="https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-return-to-lord-s-for-more-wtc-final-celebrations"
+                                target="_blank"
+                                rel="noopener noreferrer">south-africa-return-to-lord-s-for-more-wtc-final-celebrations</a>
+                        </span>
+                    </div>
+                    <div class="p-2 ">
+                        <ul class="flex flex-row justify-between items-center text-gray-400 ">
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">quick_phrases</span>100</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">repeat</span>240</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">favorite</span>6.5K</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">bar_chart</span>98K</li>
+                            <div class="cursor-pointer">
+                                <span class="material-symbols-outlined">bookmark</span></li>
+                                <span class="material-symbols-outlined">upload</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <hr class="text-gray-600">
+
+
+            <article class="flex m-3 ">
+                <img class="w-10 h-10 rounded-full cursor-pointer" src="svgs & images/post1DP.png" alt="">
+
+                <div class="post-info px-2.5">
+                    <div class="post-Navbar flex justify-between">
+                        <div class="flex flex-row items-center ">
+                            <span class="font-bold hover:underline cursor-pointer">ICC</span>
+                            <span class="pr-2"><img class="w-5 " src="svgs & images/blue tick.svg" alt=""></span>
+                            <span class="text-gray-400 cursor-pointer">@ICC . 1h</span>
+                        </div>
+                        <div class="flex  right-0 text-gray-400 cursor-pointer">
+                            <a href="https://x.ai/grok" target="_blank"><svg viewBox="0 0 33 32" aria-hidden="true" fill="#99a1af"
+                                class="invert w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                </path>
+                            </svg></a>
+                            <span class="material-symbols-outlined"> more_horiz </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer text-[16px]">
+                        The South African captain Temba Bavuma are definitely happy with what's in the briefcase 😲 
+                    </div>
+                    <div class="cursor-pointer text-[15px] pt-1 "
+                        title="south-africa-return-to-lord-s-for-more-wtc-final-celebrations">
+                        <div class="text-blue-400 hover:underline"><a
+                                href="https://x.com/hashtag/WTC25?src=hashtag_click"
+                                target="_blank">
+                                #WTC25</a>
+                        </div>
+                    </div>
+                    <div class="relative  ">
+                        <video class=" border border-gray-700 rounded-sm max-w-3/4  " controls muted preload="auto" src="svgs & images/post4.mp4" ></video>
+                        <!-- <span
+                            class="cursor-pointer absolute bottom-2 left-2 bg-black rounded-md px-1 opacity-80 max-h-5.5 max-w-[85%] truncate">
+                            <a class="text-sm" title="south-africa-return-to-lord-s-for-more-wtc-final-celebrations"
+                                href="https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-return-to-lord-s-for-more-wtc-final-celebrations"
+                                target="_blank"
+                                rel="noopener noreferrer">south-africa-return-to-lord-s-for-more-wtc-final-celebrations</a>
+                        </span> -->
+                    </div>
+                    <div class="p-2 ">
+                        <ul class="flex flex-row justify-between items-center text-gray-400 ">
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">quick_phrases</span>190</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">repeat</span>299</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">favorite</span>9.5K</li>
+                            <li class="flex items-center cursor-pointer"><span
+                                    class="material-symbols-outlined">bar_chart</span>170K</li>
+                            <div class="cursor-pointer">
+                                <span class="material-symbols-outlined">bookmark</span></li>
+                                <span class="material-symbols-outlined">upload</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <hr class="text-gray-600">
+
+        </div>
+        <!-- second          -->
+
+        <!-- third -->
+        <div class="third hidden md:block md:mx-2 lg:mx-4 max-h-[135vh] md:max-w-1/4">
+            <div class="text-white relative  ">
+                <input class="w-full border-1 border-gray-700 mt-2 rounded-full flex  py-2 px-9" type="text"
+                    value="Search">
+                <span class="material-symbols-outlined absolute top-[12px] left-4 text-gray-500"> search </span>
+            </div>
+
+            <div class="mt-4 p-2 px-4 border-1 border-gray-700 rounded-xl w-full ">
+                <div class="text-xl font-bold  ">Subscribe to Premium</div>
+                <div class="p-1  font-normal text-[17px] text-gray-200 leading-none">Subscribe to unlock new features
+                    and if eligible, receive a share of revenue</div>
+                <button class="cursor-pointer mt-3 px-4.5 py-1.5 font-bold bg-[#1d9bf0] rounded-full ">Subscribe</button>
+            </div>
+
+            
+            <div class=" mt-4 p-2 px-4 border border-gray-700 rounded-xl">
+                <div class=" text-xl font-bold cursor-pointer">What's happening</div>
+                <div class=" flex flex-row mt-3 ">
+                    <img class="cursor-pointer w-25 rounded-xl " src="svgs & images/imageCanne.png" alt="">
+                    <div class="ml-2 text-[15px] font-medium cursor-pointer">
+                        <div>Cannes Lions 2025</div>
+                        <div class="text-gray-500 ">LIVE</div>
+                    </div>
+                </div>
+
+                <!-- Trending in india -->
+                <div>
+                    <div class="cursor-pointer mt-2 flex justify-between text-gray-600 text-xs font-medium items-center">Trending in
+                        india
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </div>
+                    <div>
+                        <div class="text-[15px] font-bold cursor-pointer">#TelAviv</div>
+                        <div class="text-xs text-gray-600 font-medium">168K posts</div>
+                    </div>
+
+                    <div class="cursor-pointer mt-2 flex justify-between text-gray-600 text-xs font-medium items-center">Entertainment
+                        . Trending
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </div>
+                    <div>
+                        <div class="text-[15px] font-bold cursor-pointer">#MalavikaMohanan</div>
+                        <div class="text-xs text-gray-600 font-medium">3,107 posts</div>
+                    </div>
+
+                    <div class="cursor-pointer mt-2 flex justify-between text-gray-600 text-xs font-medium items-center">Trending in
+                        India
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </div>
+                    <div>
+                        <div class="text-[15px] font-bold cursor-pointer">KBCGlobal Near 6Months High</div>
+                        <div class="text-xs text-gray-600 font-medium">2,034 posts</div>
+                    </div>
+
+                    <div class="cursor-pointer mt-2 flex justify-between text-gray-600 text-xs font-medium items-center">Sports ·
+                        Trending
+                        <span class="material-symbols-outlined ">more_horiz</span>
+                    </div>
+                    <div>
+                        <div class="text-[15px] font-bold cursor-pointer">Sanju</div>
+                        <div class="text-xs text-gray-600 font-medium">8,110 posts</div>
+                    </div>
+
+                </div>
+                <span class="cursor-pointer hover:underline text-[15px] font-medium text-[#1d9bf0] pt-3">Show More</span>
+            </div>
+
+            <div class="sticky top-1 mt-4 right-0  p-2 px-4 border border-gray-700 rounded-xl">
+                <div class=" text-xl font-bold cursor-pointer">Who to Follow</div>
+
+                <div class="flex items-center md:h-6 lg:h-8 mt-4  " title="Rohit Sharma">
+                    <img class="lg:w-8 md:w-7 cursor-pointer rounded-full" src="svgs & images/imageRohit.png" alt="">
+                    <div class="md:px-1 lg:px-3  min-w-0 flex-1 ">
+                        <div class="lg:text-[15px] md:text-xs font-bold flex  items-center  ">
+                            <span class="truncate max-w-full cursor-pointer">Rohit Sharma</span>
+                            <img class="w-4 lg:ml-1 shrink-0 cursor-pointer" src="svgs & images/blue tick.svg" alt="">
+                        </div>
+                        <div class=" text-xs text-gray-600 font-medium cursor-pointer">@ImRo45</div>
+                    </div>
+                    <button class=" lg:px-4 lg:py-1.5 lg:text-[15px]  text-xs py-1 px-1   font-bold bg-white text-black rounded-full cursor-pointer">Follow</button>
+                </div>
+
+
+                <div class="flex items-center md:h-6 lg:h-8  mt-4  " title="K L Rahul">
+                    <img class="lg:w-8 md:w-7 cursor-pointer rounded-full" src="svgs & images/imageRahul.png" alt="">
+                    <div class="md:px-1 lg:px-3  min-w-0 flex-1 ">
+                        <div class="lg:text-[15px] md:text-xs font-bold flex  items-center  ">
+                            <span class="truncate max-w-full cursor-pointer">K L Rahul</span>
+                            <img class="w-4 lg:ml-1 shrink-0 cursor-pointer" src="svgs & images/blue tick.svg" alt="">
+                        </div>
+                        <div class=" text-xs text-gray-600 font-medium cursor-pointer">@klrahul</div>
+                    </div>
+                    <button class="lg:px-4 lg:py-1.5 lg:text-[15px]  text-xs py-1 px-1 font-bold bg-white text-black rounded-full cursor-pointer">Follow</button>
+                </div>
+
+
+                <div class="flex items-center md:h-6 lg:h-8  mt-4  " title="Royal Challengers Bengaluru ">
+                    <img class="lg:w-8 md:w-7 cursor-pointer rounded-xs" src="svgs & images/imageRCB.png" alt="">
+                    <div class="md:px-1 lg:px-3  min-w-0 flex-1 ">
+                        <div class="lg:text-[15px] md:text-xs font-bold flex  items-center  ">
+                            <span class="truncate max-w-full cursor-pointer">Royal Challengers Bengaluru</span>
+                            <img class="w-4 lg:ml-1 shrink-0 cursor-pointer" src="svgs & images/gold tick.svg" alt="">
+                        </div>
+                        <div class=" text-xs text-gray-600 font-medium cursor-pointer">@RCBTweets</div>
+                    </div>
+                    <button class="lg:px-4 lg:py-1.5 lg:text-[15px]  text-xs py-1 px-1 font-bold bg-white text-black rounded-full cursor-pointer">Follow</button>
+                </div>
+
+                <div class="cursor-pointer hover:underline text-[15px] font-medium text-[#1d9bf0] pt-3 ">Show More</div>
+            </div>
+            
+        </div>
+        <!-- third -->
+
+
+        <div class="fixed cursor-pointer bg-black border border-gray-500 rounded-2xl  p-2 bottom-6  ring-2 ring-offset-white right-6  ">
+            <a href="https://x.ai/grok" target="_blank"><svg viewBox="0 0 33 32" aria-hidden="true"
+                            class="invert w-8 hover:w-[38px] r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                            <path
+                                d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                            </path>
+                            
+            </svg></a>
+        </div>
+    </div>
+</body>
+
+</html>
